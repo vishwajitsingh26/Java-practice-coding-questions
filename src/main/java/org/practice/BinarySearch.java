@@ -23,11 +23,8 @@ public class BinarySearch {
                 end = mid - 1;
             } else if (target == nums[mid]) {
                 return mid;
-
             }
-
         }
-
         return -1;
     }
 }
